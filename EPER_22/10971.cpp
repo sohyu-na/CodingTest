@@ -5,6 +5,7 @@
 
 using namespace std;
 vector<vector<int>> matrix;
+
 int ans = 1e8; // 최댓값 미리 설정 
 
 //재귀로 쓰이므로 void 하고 ans를 전역변수로 
