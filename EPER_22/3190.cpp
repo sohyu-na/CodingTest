@@ -6,6 +6,7 @@
 using namespace std;
 typedef pair<int, int> ci;
 
+//함수 쓰기
 int playGame(int n, vector<vector<int>>& board, map<int, char>& cmd) {
     //우, 상, 좌 , 하
     int dr[4] = { 0,-1,0,1 };
